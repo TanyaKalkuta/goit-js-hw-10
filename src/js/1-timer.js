@@ -92,7 +92,7 @@ btnStart.addEventListener('click', () => {
     const { days, hours, minutes, seconds } = convertMs(differenceData);
 
     // Оновлюємо інтерфейс таймера
-    daysEl.textContent = days; // дні можуть бути > 99, тому без pad
+    daysEl.textContent = addLeadingZero(days);
     hoursEl.textContent = addLeadingZero(hours);
     minutesEl.textContent = addLeadingZero(minutes);
     secondsEl.textContent = addLeadingZero(seconds);
