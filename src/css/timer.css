@@ -5,6 +5,9 @@
   padding: 20px 30px;
   gap: 40px;
 }
+.flatpickr-input {
+  margin-top: 20px;
+}
 .field {
   display: flex;
   flex-direction: column;
