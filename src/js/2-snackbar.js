@@ -45,7 +45,7 @@ form.addEventListener('submit', event => {
         position: 'topRight',
         close: false,
         messageSize: '30',
-        timeout: 3000,
+        timeout: 5000,
       });
     });
   form.reset();
